@@ -5,7 +5,6 @@ const descriptions = document.querySelector(`.description`);
 const humiditys = document.querySelector(`.humidity`);
 const winds = document.querySelector(`.wind`);
 
-
 onInputEnter()
 
 const weather = {
@@ -99,7 +98,6 @@ function onClickSearchBtn() {
     weather.search();
 }
 
-
 function onInputEnter() {
     document.querySelector(`.search-bar`).onkeyup = function (e) {
     if (e.key === 'Enter') {
@@ -107,7 +105,6 @@ function onInputEnter() {
         }
     }
 }
-
 
 geocode.getLocation()
 
